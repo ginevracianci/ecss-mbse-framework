@@ -129,11 +129,11 @@ The methodology combines:
 ## 📚 Documentation
 
 - **[Quick Start Guide](ecss-mbse-framework/docs/QUICK_START.md)** - Get started in 10 minutes
-- **[ECSS Standards Guide](docs/ECSS_STANDARDS_GUIDE.md)** - Overview of key ECSS standards
-- **[MBSE Methodology](docs/MBSE_METHODOLOGY.md)** - How to use MBSE for process engineering
-- **[Templates Guide](docs/TEMPLATES_GUIDE.md)** - Detailed explanation of each template
-- **[Tools Documentation](docs/TOOLS_DOCUMENTATION.md)** - How to use automation tools
-- **[Case Studies](docs/CASE_STUDIES.md)** - Real-world applications
+- **[ECSS Standards Guide](ecss-mbse-framework/docs/ECSS_STANDARDS_GUIDE.md)** - Overview of key ECSS standards
+- **[MBSE Methodology](ecss-mbse-framework/docs/MBSE_METHODOLOGY.md)** - How to use MBSE for process engineering
+- **[Templates Guide](ecss-mbse-framework/templates/TEMPLATES_GUIDE.md)** - Detailed explanation of each template
+- **[Tools Documentation](ecss-mbse-framework/tools/TOOLS_DOCUMENTATION.md)** - How to use automation tools
+- **[Case Studies](ecss-mbse-framework/examples/CASE_STUDIES.md)** - Real-world applications
 
 ## 🛠️ Installation
 
