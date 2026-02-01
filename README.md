@@ -242,7 +242,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 **Ginevra Cianci**
 - LinkedIn: [linkedin.com/in/ginevracianci](https://linkedin.com/in/ginevracianci)
 - GitHub: [github.com/ginevracianci](https://github.com/ginevracianci)
-- Email: ginevra.cianci@polito.it
+- Email: ginevra.cianci@gmail.it
 
 ## 📝 License
 
