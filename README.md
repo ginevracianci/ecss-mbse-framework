@@ -4,6 +4,7 @@
 [![ECSS](https://img.shields.io/badge/Standards-ECSS-red.svg)]()
 [![MBSE](https://img.shields.io/badge/Methodology-MBSE-orange.svg)]()
 [![SysML](https://img.shields.io/badge/Language-SysML-blue.svg)]()
+[![Release](https://img.shields.io/github/v/release/ginevracianci/ecss-mbse-framework)](https://github.com/ginevracianci/ecss-mbse-framework/releases)  ← NUOVO
 
 > **Practical framework for applying ECSS standards using Model-Based Systems Engineering (MBSE) methodology**
 
