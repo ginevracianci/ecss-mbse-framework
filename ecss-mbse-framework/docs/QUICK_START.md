@@ -396,7 +396,6 @@ After completing this quick start:
 1. **Read detailed documentation**
    - [ECSS Standards Guide](ECSS_STANDARDS_GUIDE.md)
    - [MBSE Methodology](MBSE_METHODOLOGY.md)
-   - [Templates Guide](ecss-mbse-framework/templates/TEMPLATES_GUIDE.md)
 
 2. **Explore examples**
    - [CubeSat Mission Example](../examples/cubesat_mission/)
