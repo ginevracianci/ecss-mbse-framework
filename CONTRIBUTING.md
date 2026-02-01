@@ -535,5 +535,5 @@ Your contributions help the aerospace community apply ECSS standards more effect
 ---
 
 **Maintained by**: Ginevra Cianci  
-**Contact**: ginevra.cianci@polito.it  
+**Contact**: ginevra.cianci@gmail.it  
 **GitHub**: [@ginevracianci](https://github.com/ginevracianci)
