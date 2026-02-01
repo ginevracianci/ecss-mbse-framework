@@ -9,7 +9,7 @@
 
 A comprehensive collection of ready-to-use templates, process models, and automation tools for aerospace systems engineering following European Cooperation for Space Standardization (ECSS) guidelines.
 
-![Framework Overview](docs/images/framework_overview.png)
+![Framework Overview](ecss-mbse-framework/docs/images/framework_overview.png)
 
 ## 🎯 What Is This?
 
