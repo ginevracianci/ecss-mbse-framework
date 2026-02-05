@@ -15,7 +15,7 @@ License: MIT
 import re
 import argparse
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List
 from dataclasses import dataclass
 import sys
 
@@ -38,6 +38,7 @@ class ECSSComplianceChecker:
     def __init__(self, project_path: Path):
         self.project_path = project_path
         self.issues: List[ComplianceIssue] = []
+        self.return_code: int = 0
         
     def check_all(self) -> Dict[str, int]:
         """
@@ -45,6 +46,9 @@ class ECSSComplianceChecker:
         
         Returns:
             Dict with counts of issues by severity
+
+        Side effects:
+            Sets self.return_code to the computed exit status.
         """
         print(f"🔍 Checking ECSS compliance for: {self.project_path}")
         print("=" * 60)
@@ -228,6 +232,9 @@ class ECSSComplianceChecker:
         
         Returns:
             Dict with counts of issues by severity
+
+        Side effects:
+            Sets self.return_code to the computed exit status.
         """
         print("\n" + "=" * 60)
         print("📊 COMPLIANCE CHECK SUMMARY")
@@ -275,7 +282,9 @@ class ECSSComplianceChecker:
         
         print("=" * 60)
         
-        return severity_counts, return_code
+        self.return_code = return_code
+        
+        return severity_counts
     
     def generate_report(self, output_file: Path) -> None:
         """
@@ -366,7 +375,8 @@ ECSS Standards Checked:
     
     # Run compliance check
     checker = ECSSComplianceChecker(project_path)
-    severity_counts, return_code = checker.check_all()
+    checker.check_all()
+    return_code = checker.return_code
     
     # Generate report if requested
     if args.report:
