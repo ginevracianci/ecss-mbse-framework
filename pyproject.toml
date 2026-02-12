@@ -1,0 +1,7 @@
+[project]
+name = "ecss-mbse-framework"
+version = "0.0.0"
+description = "ECSS MBSE application framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }

@@ -1,0 +1,7 @@
+# Upper bounds to reduce surprise major upgrades in CI.
+# Extend as needed; keep compatible with Python >=3.8.
+pylint<4
+flake8<8
+pytest<9
+pytest-cov<5
+pre-commit<4

@@ -5,6 +5,7 @@
 [![MBSE](https://img.shields.io/badge/Methodology-MBSE-orange.svg)]()
 [![SysML](https://img.shields.io/badge/Language-SysML-blue.svg)]()
 [![Release](https://img.shields.io/github/v/release/ginevracianci/ecss-mbse-framework)](https://github.com/ginevracianci/ecss-mbse-framework/releases)  
+[![Python Tests](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml)
 
 > **Practical framework for applying ECSS standards using Model-Based Systems Engineering (MBSE) methodology**
 
@@ -157,6 +158,31 @@ pip install -r requirements.txt
 
 # Verify installation
 python tools/compliance_checker.py --version
+```
+
+## Testing
+
+### Install dev dependencies
+```bash
+python -m pip install -r requirements.txt -r requirements-dev.txt -c constraints.txt
+```
+
+### Run tests
+```bash
+python -m pytest -q
+```
+
+### CI workflow
+
+The `python-tests` workflow runs on:
+- `pull_request` (all branches)
+- `push` to `main`
+
+It uses a Python matrix (3.8, 3.10, 3.11, 3.12), installs dependencies with
+`constraints.txt`, runs `pre-commit`, and then executes:
+
+```bash
+python -m pytest -q
 ```
 
 ## 💡 How to Use This Framework
