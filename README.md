@@ -4,12 +4,14 @@
 [![ECSS](https://img.shields.io/badge/Standards-ECSS-red.svg)]()
 [![MBSE](https://img.shields.io/badge/Methodology-MBSE-orange.svg)]()
 [![SysML](https://img.shields.io/badge/Language-SysML-blue.svg)]()
+[![Release](https://img.shields.io/github/v/release/ginevracianci/ecss-mbse-framework)](https://github.com/ginevracianci/ecss-mbse-framework/releases)  
+[![Python Tests](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml)
 
 > **Practical framework for applying ECSS standards using Model-Based Systems Engineering (MBSE) methodology**
 
 A comprehensive collection of ready-to-use templates, process models, and automation tools for aerospace systems engineering following European Cooperation for Space Standardization (ECSS) guidelines.
 
-![Framework Overview](docs/images/framework_overview.png)
+![Framework Overview](ecss-mbse-framework/docs/images/framework_overview.png)
 
 ## 🎯 What Is This?
 
@@ -18,7 +20,7 @@ This framework helps aerospace engineers apply ECSS standards in real projects b
 - **📋 Ready-to-Use Templates** - ECSS-compliant templates for requirements, testing, QA, and project management
 - **🎨 MBSE Process Models** - SysML diagrams for engineering processes (not just system design)
 - **🛠️ Automation Tools** - Python scripts for compliance checking and traceability management
-- **📚 Practical Examples** - Real case studies showing complete ECSS application
+- **📚 Practical Examples** - Real case studies showing complete ECSS application 
 
 ## 🌟 Why This Framework?
 
@@ -128,12 +130,12 @@ The methodology combines:
 
 ## 📚 Documentation
 
-- **[Quick Start Guide](docs/QUICK_START.md)** - Get started in 10 minutes
-- **[ECSS Standards Guide](docs/ECSS_STANDARDS_GUIDE.md)** - Overview of key ECSS standards
-- **[MBSE Methodology](docs/MBSE_METHODOLOGY.md)** - How to use MBSE for process engineering
-- **[Templates Guide](docs/TEMPLATES_GUIDE.md)** - Detailed explanation of each template
-- **[Tools Documentation](docs/TOOLS_DOCUMENTATION.md)** - How to use automation tools
-- **[Case Studies](docs/CASE_STUDIES.md)** - Real-world applications
+- **[Quick Start Guide](ecss-mbse-framework/docs/QUICK_START.md)** - Get started in 10 minutes
+- **[ECSS Standards Guide](ecss-mbse-framework/docs/ECSS_STANDARDS_GUIDE.md)** - Overview of key ECSS standards
+- **[MBSE Methodology](ecss-mbse-framework/docs/MBSE_METHODOLOGY.md)** - How to use MBSE for process engineering
+- **[Templates Guide](ecss-mbse-framework/templates/TEMPLATES_GUIDE.md)** - Detailed explanation of each template
+- **[Tools Documentation](ecss-mbse-framework/tools/TOOLS_DOCUMENTATION.md)** - How to use automation tools
+- **[Case Studies](ecss-mbse-framework/examples/CASE_STUDIES.md)** - Real-world applications
 
 ## 🛠️ Installation
 
@@ -156,6 +158,31 @@ pip install -r requirements.txt
 
 # Verify installation
 python tools/compliance_checker.py --version
+```
+
+## Testing
+
+### Install dev dependencies
+```bash
+python -m pip install -r requirements.txt -r requirements-dev.txt -c constraints.txt
+```
+
+### Run tests
+```bash
+python -m pytest -q
+```
+
+### CI workflow
+
+The `python-tests` workflow runs on:
+- `pull_request` (all branches)
+- `push` to `main`
+
+It uses a Python matrix (3.8, 3.10, 3.11, 3.12), installs dependencies with
+`constraints.txt`, runs `pre-commit`, and then executes:
+
+```bash
+python -m pytest -q
 ```
 
 ## 💡 How to Use This Framework
@@ -242,7 +269,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 **Ginevra Cianci**
 - LinkedIn: [linkedin.com/in/ginevracianci](https://linkedin.com/in/ginevracianci)
 - GitHub: [github.com/ginevracianci](https://github.com/ginevracianci)
-- Email: ginevra.cianci@polito.it
+- Email: ginevra.cianci@gmail.com
 
 ## 📝 License
 

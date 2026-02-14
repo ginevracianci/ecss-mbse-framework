@@ -14,10 +14,6 @@ Jinja2>=3.0.0
 pylint>=2.12.0
 flake8>=4.0.0
 
-# Testing
-pytest>=7.0.0
-pytest-cov>=3.0.0
-
 # Utilities
 pathlib>=1.0.1
 argparse>=1.4.0
