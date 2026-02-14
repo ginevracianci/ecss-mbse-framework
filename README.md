@@ -32,7 +32,7 @@ This framework bridges the gap between ECSS theory and practice by providing:
 - Practical templates you can use immediately
 - Process automation to reduce manual work
 - MBSE methodology to manage complexity
-- Real examples from space missions
+- Real examples from space missions 
 
 ## 🚀 Quick Start
 
