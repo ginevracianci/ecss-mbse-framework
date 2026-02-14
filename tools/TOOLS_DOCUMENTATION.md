@@ -325,9 +325,9 @@ pip install -r requirements.txt --upgrade
 
 ## 🔗 Related Documentation
 
-- [Quick Start Guide] - Get started with tools
-- [Templates Guide] - What tools check against
-- [ECSS Standards Guide] - Standards background
+- [Quick Start Guide](QUICK_START.md) - Get started with tools
+- [Templates Guide](TEMPLATES_GUIDE.md) - What tools check against
+- [ECSS Standards Guide](ECSS_STANDARDS_GUIDE.md) - Standards background
 
 ---
 
@@ -345,5 +345,5 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-**Last Updated**: February 2026
+**Last Updated**: February 2025
 **Version**: 1.0.0

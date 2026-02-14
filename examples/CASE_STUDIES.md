@@ -319,6 +319,14 @@ We'd love to feature your case study!
 
 ---
 
+## 🔗 Related Resources
+
+- [Quick Start Guide](QUICK_START.md) - Apply framework to your project
+- [Templates Guide](TEMPLATES_GUIDE.md) - Detailed template usage
+- [ECSS Standards Guide](ECSS_STANDARDS_GUIDE.md) - Standards reference
+
+---
+
 ## 📚 Additional Examples
 
 Looking for more examples?
@@ -339,7 +347,7 @@ Looking for more examples?
 
 ---
 
-**Last Updated**: February 2026
+**Last Updated**: February 2025
 **Available Case Studies**: 1
 **In Progress**: 2
 **Planned**: 6+

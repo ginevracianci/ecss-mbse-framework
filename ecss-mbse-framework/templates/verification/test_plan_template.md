@@ -2,8 +2,8 @@
 
 **ECSS Standard**: ECSS-E-ST-10-03C - Space systems engineering - Testing
 
-**Version**: 1.0  
-**Date**: [YYYY-MM-DD]  
+**Version**: 1.0
+**Date**: [YYYY-MM-DD]
 **Status**: [Draft | Review | Approved | Baseline]
 
 ---
@@ -178,10 +178,10 @@ Each test case shall include:
 ```markdown
 ## TC-XXX: [Test Case Title]
 
-**Requirement**: [R-XXX]  
-**Test Level**: [Unit/Integration/System/Acceptance]  
-**Test Type**: [Functional/Performance/Interface/etc.]  
-**Priority**: [Critical/High/Medium/Low]  
+**Requirement**: [R-XXX]
+**Test Level**: [Unit/Integration/System/Acceptance]
+**Test Type**: [Functional/Performance/Interface/etc.]
+**Priority**: [Critical/High/Medium/Low]
 **Estimated Duration**: [Time]
 
 ### Objective
@@ -436,8 +436,8 @@ Testing complete when:
 ```markdown
 ## TC-FUNC-001: System Initialization
 
-**Requirement**: R-FUNC-001  
-**Test Level**: System  
+**Requirement**: R-FUNC-001
+**Test Level**: System
 **Priority**: Critical
 
 ### Objective
@@ -469,8 +469,8 @@ Verify system initializes correctly within specified time
 ```markdown
 ## TC-PERF-015: Navigation Accuracy
 
-**Requirement**: R-PERF-001  
-**Test Level**: System  
+**Requirement**: R-PERF-001
+**Test Level**: System
 **Priority**: High
 
 ### Objective
@@ -511,5 +511,5 @@ Verify navigation accuracy meets specified tolerances
 
 ---
 
-**Document prepared using ECSS-MBSE Framework**  
+**Document prepared using ECSS-MBSE Framework**
 Repository: https://github.com/ginevracianci/ecss-mbse-framework

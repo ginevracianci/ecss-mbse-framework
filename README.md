@@ -4,7 +4,7 @@
 [![ECSS](https://img.shields.io/badge/Standards-ECSS-red.svg)]()
 [![MBSE](https://img.shields.io/badge/Methodology-MBSE-orange.svg)]()
 [![SysML](https://img.shields.io/badge/Language-SysML-blue.svg)]()
-[![Release](https://img.shields.io/github/v/release/ginevracianci/ecss-mbse-framework)](https://github.com/ginevracianci/ecss-mbse-framework/releases)  
+[![Release](https://img.shields.io/github/v/release/ginevracianci/ecss-mbse-framework)](https://github.com/ginevracianci/ecss-mbse-framework/releases)
 [![Python Tests](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ginevracianci/ecss-mbse-framework/actions/workflows/python-tests.yml)
 
 > **Practical framework for applying ECSS standards using Model-Based Systems Engineering (MBSE) methodology**
@@ -20,7 +20,7 @@ This framework helps aerospace engineers apply ECSS standards in real projects b
 - **📋 Ready-to-Use Templates** - ECSS-compliant templates for requirements, testing, QA, and project management
 - **🎨 MBSE Process Models** - SysML diagrams for engineering processes (not just system design)
 - **🛠️ Automation Tools** - Python scripts for compliance checking and traceability management
-- **📚 Practical Examples** - Real case studies showing complete ECSS application 
+- **📚 Practical Examples** - Real case studies showing complete ECSS application
 
 ## 🌟 Why This Framework?
 

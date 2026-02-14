@@ -1,7 +1,7 @@
 # Case Study: ECSS Application to GNC System
 
-**Project**: Autonomous GNC System for Asteroid Exploration  
-**Repository**: [gnc-autonomous-system](https://github.com/ginevracianci/gnc-autonomous-system)  
+**Project**: Autonomous GNC System for Asteroid Exploration
+**Repository**: [gnc-autonomous-system](https://github.com/ginevracianci/gnc-autonomous-system)
 **Application**: Demonstrating ECSS standards compliance for a real space system
 
 ---
@@ -185,7 +185,7 @@ for run in range(n_runs):
     # Add realistic sensor noise
     # Propagate through Kalman filter
     # Record position error
-    
+
 # Verify: mean(errors) ≤ 25 m (3σ)
 Result: 22.4 m (3σ) → PASS
 ```
@@ -257,8 +257,8 @@ Acceptance (mission scenarios)
 
 ### Model-Based Systems Engineering
 
-**Tool**: CATIA Cameo Systems Modeler  
-**Language**: SysML  
+**Tool**: CATIA Cameo Systems Modeler
+**Language**: SysML
 **Standard**: ESA SysML Solution guidelines
 
 #### Requirements Diagram

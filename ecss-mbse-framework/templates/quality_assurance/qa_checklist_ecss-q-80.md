@@ -2,8 +2,8 @@
 
 **ECSS Standard**: ECSS-Q-ST-80C - Space product assurance - Software product assurance
 
-**Version**: 1.0  
-**Date**: [YYYY-MM-DD]  
+**Version**: 1.0
+**Date**: [YYYY-MM-DD]
 **Project**: [Project Name]
 
 ---
@@ -323,8 +323,8 @@
 
 ### 11.2 QA Decision
 
-☐ **PASS** - Software meets all ECSS-Q-ST-80C requirements  
-☐ **CONDITIONAL PASS** - Minor findings, can proceed with conditions  
+☐ **PASS** - Software meets all ECSS-Q-ST-80C requirements
+☐ **CONDITIONAL PASS** - Minor findings, can proceed with conditions
 ☐ **FAIL** - Critical findings, cannot proceed until resolved
 
 **Conditions (if applicable):**
@@ -340,25 +340,25 @@
 
 ### 12.1 Auditor
 
-**Name**: [QA Auditor Name]  
-**Signature**: ___________________  
+**Name**: [QA Auditor Name]
+**Signature**: ___________________
 **Date**: [YYYY-MM-DD]
 
-**ISO 9001:2015 Lead Auditor**: ☐ Yes ☐ No  
+**ISO 9001:2015 Lead Auditor**: ☐ Yes ☐ No
 **ECSS Training**: ☐ Yes ☐ No
 
 ### 12.2 Development Team
 
-**Name**: [Development Lead]  
-**Signature**: ___________________  
+**Name**: [Development Lead]
+**Signature**: ___________________
 **Date**: [YYYY-MM-DD]
 
 **Acknowledgment**: I acknowledge the findings and commit to addressing identified issues.
 
 ### 12.3 QA Manager
 
-**Name**: [QA Manager]  
-**Signature**: ___________________  
+**Name**: [QA Manager]
+**Signature**: ___________________
 **Date**: [YYYY-MM-DD]
 
 **Approval**: ☐ Approved ☐ Conditional ☐ Rejected
@@ -389,5 +389,5 @@
 
 ---
 
-**Document prepared using ECSS-MBSE Framework**  
+**Document prepared using ECSS-MBSE Framework**
 Repository: https://github.com/ginevracianci/ecss-mbse-framework

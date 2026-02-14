@@ -433,9 +433,9 @@ See complete examples in:
 
 ### Related Guides
 
-- [ECSS Standards Guide]- Understand the standards
-- [Quick Start] - Get started quickly
-- [MBSE Methodology] - Use MBSE with templates
+- [ECSS Standards Guide](ECSS_STANDARDS_GUIDE.md) - Understand the standards
+- [Quick Start](QUICK_START.md) - Get started quickly
+- [MBSE Methodology](MBSE_METHODOLOGY.md) - Use MBSE with templates
 
 ---
 
@@ -458,4 +458,4 @@ A: Yes, for small projects. Keep requirements/testing separate for large project
 
 ---
 
-**Need help?** Open an issue on GitHub or check the [Quick Start Guide].
+**Need help?** Open an issue on GitHub or check the [Quick Start Guide](QUICK_START.md).

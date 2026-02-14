@@ -155,8 +155,8 @@ Use the test case template (Section 4.2):
 ```markdown
 ## TC-001: Trajectory Update Rate Test
 
-**Requirement**: R-FUNC-001  
-**Test Level**: System  
+**Requirement**: R-FUNC-001
+**Test Level**: System
 **Priority**: Critical
 
 ### Objective
@@ -382,7 +382,7 @@ Monitor these metrics for project health:
 
 ### "Don't understand ECSS clauses"
 
-**Solution**: 
+**Solution**:
 1. Read [ECSS Standards Guide](ECSS_STANDARDS_GUIDE.md)
 2. Check ECSS website: https://ecss.nl/
 3. Templates include examples for guidance

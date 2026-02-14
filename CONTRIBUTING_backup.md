@@ -87,24 +87,6 @@ git checkout -b feature/your-feature-name
 # Install dependencies (for tool development)
 pip install -r requirements.txt
 ```
-### Dev setup
-
-```bash
-python -m pip install -r requirements.txt -r requirements-dev.txt -c constraints.txt
-pre-commit install
-```
-
-### Run tests
-
-```bash
-python -m pytest -q
-```
-
-### CI workflow (brief)
-
-The `python-tests` workflow runs on `pull_request` and on `push` to `main`.
-It installs dependencies with `constraints.txt`, runs `pre-commit`, and then
-executes `python -m pytest -q`.
 
 ---
 
@@ -347,7 +329,7 @@ Before submitting tool changes:
 
 1. **Run existing tests:**
 ```bash
-python -m pytest -q
+pytest tests/
 ```
 
 2. **Add new tests** for your changes
@@ -465,7 +447,7 @@ Major contributions may result in:
 
 - **GitHub Discussions**: For general questions
 - **GitHub Issues**: For specific problems
-- **Email**: ginevra.cianci@gmail.it (maintainer)
+- **Email**: ginevra.cianci@polito.it (maintainer)
 
 ### Learning ECSS
 
@@ -553,5 +535,5 @@ Your contributions help the aerospace community apply ECSS standards more effect
 ---
 
 **Maintained by**: Ginevra Cianci
-**Contact**: ginevra.cianci@gmail.it
+**Contact**: ginevra.cianci@polito.it
 **GitHub**: [@ginevracianci](https://github.com/ginevracianci)

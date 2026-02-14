@@ -2,8 +2,8 @@
 
 **ECSS Standard**: ECSS-E-ST-10-02C - Space systems engineering - System engineering general requirements
 
-**Version**: 1.0  
-**Date**: [YYYY-MM-DD]  
+**Version**: 1.0
+**Date**: [YYYY-MM-DD]
 **Status**: [Draft | Review | Approved | Baseline]
 
 ---
@@ -320,5 +320,5 @@ Track unresolved requirements issues:
 
 ---
 
-**Document prepared using ECSS-MBSE Framework**  
+**Document prepared using ECSS-MBSE Framework**
 Repository: https://github.com/ginevracianci/ecss-mbse-framework

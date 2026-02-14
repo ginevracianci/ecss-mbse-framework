@@ -496,7 +496,7 @@ ECSS standards are periodically updated. Check for latest versions:
 
 ---
 
-**Next Steps**: 
+**Next Steps**:
 - Try applying standards using [Quick Start Guide](QUICK_START.md)
 - Review [Templates Guide](TEMPLATES_GUIDE.md) for detailed usage
 - Study [Case Studies](CASE_STUDIES.md) for real examples
