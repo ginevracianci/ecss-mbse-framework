@@ -65,7 +65,7 @@ Before contributing, make sure you have:
 
 - [ ] GitHub account
 - [ ] Git installed locally
-- [ ] Python 3.8+ (for tool development)
+- [ ] Python 3.10+ (for tool development)
 - [ ] Understanding of ECSS standards (or willingness to learn)
 - [ ] Familiarity with Markdown for documentation
 
