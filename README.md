@@ -141,7 +141,7 @@ The methodology combines:
 
 ### Prerequisites
 ```bash
-python >= 3.8
+python >= 3.10
 pandas >= 1.3.0
 openpyxl >= 3.0.0
 markdown >= 3.3.0
@@ -178,7 +178,7 @@ The `python-tests` workflow runs on:
 - `pull_request` (all branches)
 - `push` to `main`
 
-It uses a Python matrix (3.8, 3.10, 3.11, 3.12), installs dependencies with
+It uses a Python matrix (3.10, 3.10, 3.11, 3.12), installs dependencies with
 `constraints.txt`, runs `pre-commit`, and then executes:
 
 ```bash
