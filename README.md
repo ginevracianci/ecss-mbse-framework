@@ -16,7 +16,7 @@ A comprehensive collection of ready-to-use templates, process models, and automa
 ## 🎯 What Is This?
 
 This framework helps aerospace engineers apply ECSS standards in real projects by providing:
-
+(adapted from 2025 version)
 - **📋 Ready-to-Use Templates** - ECSS-compliant templates for requirements, testing, QA, and project management
 - **🎨 MBSE Process Models** - SysML diagrams for engineering processes (not just system design)
 - **🛠️ Automation Tools** - Python scripts for compliance checking and traceability management
